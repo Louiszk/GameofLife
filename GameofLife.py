@@ -6,6 +6,7 @@ import numpy as np
 import plotly.graph_objs as go
 
 app = dash.Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])
+server = app.server
 
 GRID_SIZE = 20
 
@@ -91,4 +92,4 @@ def create_figure(board):
     }
 
 if __name__ == '__main__':
-    app.run_server(debug=True)
+    app.run_server(debug=False)
