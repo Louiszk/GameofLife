@@ -43,14 +43,11 @@ The game is played on a grid of cells, each of which can be alive or dead. The s
 - **Dash and Plotly**: Used to create the interactive web interface and visualize the grid.
 - **Numpy**: Used for efficient grid manipulation and calculation of the next generation of cells.
 
-### File Structure
-
-- `app.py`: The main application file containing the Dash app, callbacks, and game logic.
-
 
 ## Credits
 
 This application was fully written by GPT-4, the language model developed by OpenAI.
+(I just added one line to the code. Wrote the requirements and deployed it with [Render](https://www.render.com))
 
 ---
 

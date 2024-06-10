@@ -5,7 +5,7 @@ import dash_bootstrap_components as dbc
 import numpy as np
 import plotly.graph_objs as go
 
-app = dash.Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])
+app = dash.Dash(__name__, title = 'GAME OF LIFE', external_stylesheets=[dbc.themes.BOOTSTRAP])
 server = app.server
 
 GRID_SIZE = 20
